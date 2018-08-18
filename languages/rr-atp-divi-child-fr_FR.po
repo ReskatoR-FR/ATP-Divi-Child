@@ -1,0 +1,437 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RR Adopte Ton Plugin Child Theme\n"
+"POT-Creation-Date: 2018-08-17 04:10+0100\n"
+"PO-Revision-Date: 2018-08-17 04:12+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rr-atp-divi-child.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/template-admin-panel.php:3 admin/template-admin-result.php:3
+msgid "This plugin generates a Divi child theme with a single clic!"
+msgstr "Cette extension génère un thème enfant Divi d’un simple clic !"
+
+#: admin/template-admin-panel.php:13
+msgid "Settings"
+msgstr "Réglages"
+
+#: admin/template-admin-panel.php:18
+msgid "What name do you want for this child theme?"
+msgstr "Quel nom voulez-vous attribuer à ce thème enfant ?"
+
+#: admin/template-admin-panel.php:19
+msgid ""
+"This field contains invalid or too much characters (25 max [a-zA-A0-9 space"
+"+hyphens])."
+msgstr ""
+"Ce champ comporte des caractères invalides ou en trop grand nombre (25 max "
+"[a-zA-Z0-9 espace+tiret])."
+
+#: admin/template-admin-panel.php:22
+msgid "The author’s name of this child theme will be:"
+msgstr "Le nom d'auteur de ce thème enfant sera :"
+
+#: admin/template-admin-panel.php:23
+msgid "This field contains invalid or too much characters (50 max)."
+msgstr ""
+"Ce champ comportent des caractères invalides ou en trop grand nombre (50 "
+"max.)."
+
+#: admin/template-admin-panel.php:26
+msgid ""
+"If you wish, you can change the author’s website address of the child theme"
+msgstr ""
+"Si vous le souhaitez, changez l'adresse du site web de l'auteur de ce thème "
+"enfant"
+
+#: admin/template-admin-panel.php:27
+msgid "Must start by http:// or https://"
+msgstr "Doit commencer par http:// ou https://"
+
+#: admin/template-admin-panel.php:30
+msgid "Which version number do you want to assign to this child theme?"
+msgstr "Quel numéro de version voulez-vous attribuer à ce thème enfant ?"
+
+#: admin/template-admin-panel.php:31
+msgid ""
+"This field contains invalid or too much characters (7 max. [0-9 + dot(s)])."
+msgstr ""
+"Ce champ comporte des caractères invalides ou en trop grand nombre (7 max "
+"[0-9 et le point])."
+
+#: admin/template-admin-panel.php:34
+msgid ""
+"Which color do you want to give to the image that will represent this child "
+"theme?"
+msgstr ""
+"Quelle couleur souhaitez-vous attribuer à l’image qui représentera ce thème ?"
+
+#: admin/template-admin-panel.php:106
+msgid "Create Divi Child Theme"
+msgstr "Générer mon thème enfant Divi"
+
+#: admin/template-admin-panel.php:132
+msgid "Yes! I want to enable Divi to create my child theme."
+msgstr "Oui ! Je veux activer Divi afin de créer mon thème enfant."
+
+#: admin/template-admin-result.php:13
+msgid "Result"
+msgstr "Résultat"
+
+#: admin/template-admin-result.php:17
+msgid "Congratulations!"
+msgstr "Félicitations !"
+
+#: admin/template-admin-result.php:18
+msgid "Your child theme has been created."
+msgstr "Votre thème a été créé."
+
+#: admin/template-admin-result.php:19
+msgid ""
+"Click the button below to access the Themes Gallery to activate your child "
+"theme."
+msgstr ""
+"Cliquez sur le bouton ci-dessous pour accéder à la galerie des thèmes afin "
+"d’activer votre nouveau thème enfant."
+
+#: admin/template-admin-result.php:24
+msgid "Yes! Take me to the themes gallery."
+msgstr "Oui ! Emmenez-moi à la galerie des thèmes."
+
+#: admin/template-admin-result.php:27
+#, php-format
+msgid "An error occurred while creating “%s” child theme."
+msgstr "Une erreur est survenue durant la création du thème enfant “%s”."
+
+#: admin/template-admin-result.php:28
+msgid "Possible causes are:"
+msgstr "Les causes possibles sont :"
+
+#: admin/template-admin-result.php:30
+#, php-format
+msgid ""
+"The child theme’s folder already exists.%1$sSolution:%2$s Give your child "
+"theme a different name."
+msgstr ""
+"Le dossier du thème enfant existe déjà.%1$sSolution :%2$s Attribuez un autre "
+"nom à votre thème enfant."
+
+#: admin/template-admin-result.php:31
+#, php-format
+msgid ""
+"An authorization problem of writing on the web server disk.%1$sSolution:%2$s "
+"contact your host’s support."
+msgstr ""
+"Un problème d’autorisation d’écriture sur le disque du serveur web."
+"%1$sSolution : %2$scontactez le support de votre hébergeur."
+
+#: admin/template-admin-result.php:33
+msgid "If you want to try with another child theme name, click button below."
+msgstr ""
+"Si vous voulez attribuer un autre nom à votre thème enfant, cliquez le "
+"bouton ci-dessous."
+
+#: admin/template-admin-result.php:37
+msgid "Yes! I will try giving another name to my child theme."
+msgstr "Oui ! Je vais attribuer un autre nom à mon thème enfant."
+
+#: admin/template-admin-sidebar.php:8
+msgid "The community"
+msgstr "La communauté"
+
+#: admin/template-admin-sidebar.php:22
+msgid "The services offered"
+msgstr "Les prestations proposées"
+
+#: admin/template-dashboard-notice.php:7
+#, php-format
+msgid ""
+"Thank you for installing <strong>%1$s</strong>! <a href=\"%2$s\">Click here</"
+"a> to configure your child theme."
+msgstr ""
+"Merci d’avoir installé <strong>%1$s</strong> ! <a href=\"%2$s\">Cliquez ici</"
+"a> pour configurer votre thème enfant."
+
+#: includes/class-atp-divi-child.php:238
+msgid "Missing field ‘nonce’ : Action not performed."
+msgstr "Champ ‘nonce’ manquant : Action non effectuée."
+
+#: includes/class-atp-divi-child.php:241
+msgid "Invalid nonce specified. Settings NOT saved."
+msgstr ""
+"Le nonce du formulaire est invalide. Les réglages n’ont pas été sauvegardés."
+
+#: includes/class-atp-divi-child.php:249
+msgid "Divi’s theme was activated."
+msgstr "Le thème Divi a été activé."
+
+#: includes/class-atp-divi-child.php:263
+msgid ""
+"Child theme’s Name is invalid, empty or contains too much characters (25 "
+"max)."
+msgstr ""
+"Le nom du thème enfant est invalide, vide, ou comportant trop de caractères "
+"(25 max)."
+
+#: includes/class-atp-divi-child.php:271
+msgid "Author’s Name has not been entered."
+msgstr "Le nom de l’auteur n’a pas été saisi."
+
+#: includes/class-atp-divi-child.php:280
+msgid "Author’s URL has not been entered."
+msgstr "L’URL de l’auteur n’a pas été saisie."
+
+#: includes/class-atp-divi-child.php:291
+msgid ""
+"Author’s URL is invalid. It contains invalid characters or does not start by "
+"‘http://’ or ‘https://’"
+msgstr ""
+"L’URL de l’auteur est invalide. Elle contient des caractères interdit ou ne "
+"commence pas par http:// ou https://"
+
+#: includes/class-atp-divi-child.php:296
+msgid "Child theme’s version has not been entered."
+msgstr "La version du thème enfant n’a pas été saisie."
+
+#: includes/class-atp-divi-child.php:304
+msgid "The version number is invalid… or with too many subversions."
+msgstr "Le numéro de version est invalide… ou avec trop de sous-versions."
+
+#: includes/class-atp-divi-child.php:309
+msgid ""
+"ERROR: Due to a problem with one of the fields, the child theme was not "
+"created."
+msgstr ""
+"ERREUR : En raison d’un problème avec l’un des champs, le thème enfant n’a "
+"pas été créé."
+
+#: includes/class-atp-divi-child.php:319
+msgid "The child theme’s directory has been created."
+msgstr "Le dossier du thème enfant a été créé."
+
+#: includes/class-atp-divi-child.php:322
+#, php-format
+msgid "Error: The child theme’s directory %s has NOT been created."
+msgstr "Erreur : le dossier %s du thème enfant n’a PAS été créé."
+
+#: includes/class-atp-divi-child.php:359
+msgid "The atp-dc-style.css file has been created."
+msgstr "Le fichier atp-dc-style.css a été créé."
+
+#: includes/class-atp-divi-child.php:362
+msgid "The atp-dc-style.css file has NOT been created."
+msgstr "Le fichier atp-dc-style.css n’a PAS été créé."
+
+#: includes/class-atp-divi-child.php:380
+msgid "The functions.php file has been created."
+msgstr "Le fichier functions.php a été créé."
+
+#: includes/class-atp-divi-child.php:383
+msgid "The functions.php file has NOT been created."
+msgstr "Le fichier functions.php n’a PAS été créé."
+
+#: includes/class-atp-divi-child.php:400
+msgid "The image file has been created."
+msgstr "Le fichier de l’image a été créé."
+
+#: includes/class-atp-divi-child.php:403
+msgid ""
+"The image could not be created, but it does not matter: the child theme is "
+"operational."
+msgstr ""
+"L’image n’a pas pu être créée, mais cela n’a pas d’incidence sur le "
+"fonctionnement du thème enfant."
+
+#: includes/class-atp-divi-child.php:408
+msgid "The size image has been compressed."
+msgstr "L’image a été compressée."
+
+#: includes/class-atp-divi-child.php:415
+msgid ""
+"ERROR: It seems that some files are missing. Thank you to reinstall the "
+"plugin."
+msgstr ""
+"ERREUR : il semble que des fichiers soient manquants. Veuillez ré-installer "
+"le plugin."
+
+#: includes/class-atp-divi-child.php:483
+#, php-format
+msgid ""
+"Sorry, you are not allowed to access this page. Return to <a href=\"%s"
+"\">Home</a>"
+msgstr ""
+"Désolé, vous n’êtes pas autorisé à accéder à cette page. Retour à <a href="
+"\"%s\">l'Accueil</a>"
+
+#: includes/class-atp-divi-child.php:524
+msgid "For your information:"
+msgstr "Pour votre information :"
+
+#. Plugin Name of the plugin/theme
+msgid "ATP Divi Child"
+msgstr "ATP Divi Child"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.reskator.fr"
+msgstr "https://www.reskator.fr"
+
+#. Description of the plugin/theme
+msgid "To easily create a Divi child theme."
+msgstr "Pour créer facilement un thème enfant Divi."
+
+#. Author of the plugin/theme
+msgid "ReskatoR"
+msgstr "ReskatoR"
+
+#. Author URI of the plugin/theme
+msgid "http://www.reskator.fr"
+msgstr "http://www.reskator.fr"
+
+#~ msgid ""
+#~ "Click on the button below to activate it and go to the gallery of "
+#~ "installed themes."
+#~ msgstr ""
+#~ "Cliquez sur le bouton ci-dessous pour l’activer et vous rendre sur la "
+#~ "galerie des thèmes installés."
+
+#~ msgid ""
+#~ "Yes! Activate my child theme and go to Appearance > Themes to see it."
+#~ msgstr ""
+#~ "Oui ! Activer mon thème enfant et aller à Apparence > Thèmes pour le voir."
+
+#~ msgid "The size image has been compressed"
+#~ msgstr "Le fichier de l’image a été compressé."
+
+#~ msgid ""
+#~ "Child theme’s Name is invalid : empty or contains too much characters (15 "
+#~ "max)."
+#~ msgstr ""
+#~ "Le nom du thème enfant est invalide : vide ou comportant trop de "
+#~ "caractères (15 max)."
+
+#~ msgid "This field contains invalid or too much characters (30 max)."
+#~ msgstr ""
+#~ "Ce champ comporte des caractères invalides ou en trop grand nombre (30 "
+#~ "max [a-zA-Z0-9 ])."
+
+#~ msgid ""
+#~ "This field contains invalid or too much characters (7 max. 0-9 + dot(s))."
+#~ msgstr ""
+#~ "Ce champs comporte des caractères invalides ou en trop grand nombre (7 "
+#~ "max. [0-9 et le point])."
+
+#~ msgid ""
+#~ "Child theme’s Name is invalid : empty or contains too much characters (30 "
+#~ "max)."
+#~ msgstr ""
+#~ "Le nom du thème enfant est invalide : vide ou comportant trop de "
+#~ "caractères (30 max)"
+
+#~ msgid ""
+#~ "The child theme’s folder already exists.<br/>%1$sSolution:%2$s Give your "
+#~ "child theme a different name."
+#~ msgstr "Le dossier du thème enfant existe déjà.<br/>%1$sSolution"
+
+#~ msgid ""
+#~ "Yes ! Activate my child theme and go to Appearance > Themes to see it."
+#~ msgstr "Oui !"
+
+#~ msgid ""
+#~ "Which color do you want to give to the image that will represent this "
+#~ "child theme? :"
+#~ msgstr ""
+#~ "Quelle couleur souhaitez-vous attribuer à l’image qui représentera ce "
+#~ "thème enfant ?"
+
+#~ msgid ""
+#~ "Which color do you want to give to the image that will represent this "
+#~ "child theme? :&nbsp;&nbsp;&nbsp; "
+#~ msgstr ""
+#~ "Quelle couleur voulez-vous affecter à l’image qui représentera ce thème "
+#~ "enfant ?&nbsp;&nbsp;&nbsp;"
+
+#~ msgid "Choose a color…"
+#~ msgstr "Sélectionner une couleur…"
+
+#~ msgid "Yes, I want to enable Divi to create my child theme"
+#~ msgstr "Oui ! Je veux activer Divi afin de créer mon thème enfant."
+
+#~ msgid "Invalid ‘nonce’ : Action not performed."
+#~ msgstr "Le ‘nonce’ est invalide : Action non effectuée."
+
+#~ msgid ""
+#~ "Sorry, you are not allowed to access this page. Return to <a href=\"/"
+#~ "\">Home</a>"
+#~ msgstr ""
+#~ "Désolé, vous n’avez pas l’autorisation d’accéder à cette page. Retour à "
+#~ "<a href=\"/\">l'Accueil</a>"
+
+#~ msgid "Sorry, you are not allowed to access this page."
+#~ msgstr "Désolé, vous n’avez pas l’autorisation d’accéder à cette page."
+
+#~ msgid "nonce field is missing. Settings NOT saved."
+#~ msgstr ""
+#~ "Le champ nonce est manquant. Les réglages n’ont pas été sauvegardés."
+
+#~ msgid "Settings Saved."
+#~ msgstr "Réglages enregistrés."
+
+#~ msgid "Philippe Feryn"
+#~ msgstr "Philippe Feryn"
+
+#~ msgid ""
+#~ "What color do you want to give to the image that will represent this "
+#~ "child theme? :&nbsp;&nbsp;&nbsp; "
+#~ msgstr ""
+#~ "Quelle couleur voulez-vous attribuer à l'image qui représentera ce thème ?"
+#~ "&nbsp;&nbsp;&nbsp;"
+
+#~ msgid "Child theme Name"
+#~ msgstr "Nom du thème enfant"
+
+#~ msgid "Child theme Author"
+#~ msgstr "Nom de l’auteur du thème enfant"
+
+#~ msgid "Child theme Author URL"
+#~ msgstr "Adresse du site web de l’auteur"
+
+#~ msgid "Child theme Version"
+#~ msgstr "Numéro de version du thème enfant"
+
+#~ msgid "RR Adopte Ton Plugin Child Theme"
+#~ msgstr "RR Adopte Ton Plugin Child Theme"
+
+#~ msgid "Save"
+#~ msgstr "Enregistrer"
+
+#~ msgid "To generate a Divi child theme : %1$s"
+#~ msgstr "Pour générer un thème enfant Divi : %1$s"
+
+#~ msgid ""
+#~ "Thank you for installing <strong>%1$s!</strong> <a href=\"%2$s\">Click "
+#~ "here</a> to configure your child theme."
+#~ msgstr "Merci d’avoir installé <strong>%1$s<"
+
+#~ msgid ""
+#~ "Thank you for installing %1$s! <a href=\"%2$s\">Click here</a> to "
+#~ "configure the plugin."
+#~ msgstr ""
+#~ "Merci d’avoir installé %1$s ! <a href=\"%2$s\">Veuillez cliquer ici</a> "
+#~ "pour configurer votre thème enfant."
+
+#~ msgid "Pour créer facilement un thème enfant DIVI."
+#~ msgstr "Pour créer facilement un thème enfant DIVI."

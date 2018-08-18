@@ -1,0 +1,196 @@
+/*
+ Plugin Name:   RR ATP Divi Child
+ Theme URI:    https://www.reskator.fr
+ Description:  Stylesheet for RR ATP Divi Child plugin
+ Author:       Reskator
+ Author URI:   https://www.reskator.fr
+ Version:      1.0.0
+*/
+body {
+    background: #fff;
+    color: #444;
+}
+h1 {
+    border-bottom: 1px solid #dadada;
+    clear: both;
+    color: #666;
+    font-size: 24px;
+    margin: 30px 0 0 0;
+    padding: 0 0 7px 0;
+}
+.desc {
+    font-size: 0.7em;
+    padding: 28px 0 0 30px;
+    float: right;
+}
+h1 > img {
+    margin: 0 30px 0 0;
+}
+a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: #0f7e72;
+}
+a:focus {
+    color: #db7301;
+    -webkit-box-shadow:
+            0 0 0 1px #0f7e72;
+            0 0 2px 1px rgba(39, 190, 143, 0.8);
+    box-shadow:
+            0 0 0 1px #0f7e72,
+            0 0 2px 1px rgba(39, 190, 143, 0.8);
+    outline: none;
+}
+ul li {
+    margin-bottom: 10px;
+}
+li.da-yes:before {
+    float: left;
+    width: 1.2em;
+    font-family: 'dashicons';
+    content: "\f147";
+    font-size: 2em;
+    color: #30c2a2;
+}
+li.da-plus-alt:before {
+    float: left;
+    width: 1.5em;
+    padding: 0 0 0 0.2em;
+    font-family: 'dashicons';
+    content: "\f502";
+    font-size: 1.4em;
+    color: #e88a8a;
+}
+label, p.label {
+    font-weight: bold;
+    margin-right: 1em;
+}
+p.label .cutomize {
+    font-family: 'dashicons';
+    content: "\f100";
+}
+input[type=text], input[type=url] {
+    font-family : "Courier New", Courier, monospace;
+    font-weight: bold;
+    background: #f7fff6;
+}
+input[type=submit] {
+    font-weight: bold;
+}
+input:focus {
+    color: #0b7e6e;
+    background: #fff;
+    box-shadow: 1px 3px #1abc9c inset;
+}
+input::placeholder {
+    color: #ddd;
+}
+.wideauto select {
+    float: right;
+    margin-right: 40px !important;
+}
+div.updated {
+    background: #f7fff6;
+}
+div.notice {
+    border-left: 4px solid #0c7eb7;
+    background: #eff8ff;
+}
+div.notice > p {
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: bold;
+    color: #0c7eb7;
+}
+div.error {
+    background: #ffe7ef !important;
+}
+.hndle {
+    background-color: #1abc9c;
+    color: #fff;
+}
+.hndle > span {
+    padding-right: 10px;
+}
+.inside > ul {
+    list-style: none;
+    padding: 0;
+}
+.rr-button, rr-button:active {
+    background: #1abc9c;
+    color: #fff;
+    border: 1px solid #30c2a2;
+    line-height: 24px;
+    font-size: 1.1em;
+    display: inline-block;
+    padding: 2px 10px 2px 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: -2px 3px 4px rgba(0, 0, 0, .35);
+    text-decoration: none;
+}
+.rr-button:hover {
+    background: #fff;
+    color: #1abc9c;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .35);
+}
+.rr-exerg {
+    margin: 3em 0 0 0;
+    text-align: center;
+}
+.atp_warning {
+    font-size: 2em;
+}
+.atp_warning:before {
+    font-family: 'dashicons';
+    content: "\f534";
+    float: left;
+    width: 1.5em;
+    color: #dd1010;
+}
+.atp-row {
+    margin-top: 30px;
+}
+.atp-block {
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+}
+.atp-block > label {
+    padding-bottom: 10px;
+}
+.solution {
+    color: #0b7e6e;
+    font-weight: bold;
+}
+#error-page {
+    margin-top: 50px;
+}
+#error-page p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 25px 0 20px;
+}
+#error-page code {
+    font-family: Consolas, Monaco, monospace;
+}
+#normal-sortables {
+    margin-right: 20px;
+}
+#postbox-container-1 {
+    width: 300px !important;
+}
+#wpfooter {
+    display: none;
+}
+#atpfooter {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 20px 0px 20px;
+    margin-left: 160px;
+}
