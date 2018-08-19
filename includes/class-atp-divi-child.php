@@ -320,7 +320,7 @@ class ATP_Divi_Child {
 									continue;
 								}
 
-								$style_file = ATP_DC_ABSPATH . 'admin/assets/atp-dc-style.css';
+								$style_file = ATP_DC_ABSPATH . 'admin/assets/style.css';
 								$functions_file = ATP_DC_ABSPATH . 'admin/assets/functions.php';
 								if( file_exists( $style_file) && file_exists( $functions_file ) ) {
 									$style_content = file_get_contents( $style_file );
