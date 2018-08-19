@@ -349,7 +349,7 @@ class ATP_Divi_Child {
 										'divi-child',
 									);
 									$style_content = str_replace( $search, $replace, $style_content );
-									$file = $theme_dir . '/atp-dc-style.css';
+									$file = $theme_dir . '/style.css';
 									if ( file_put_contents( $file, $style_content) ) {
 										$msg = __( 'The atp-dc-style.css file has been created.', 'rr-atp-divi-child' );
 										$this->_set_msg( $msg, 'notice' );
