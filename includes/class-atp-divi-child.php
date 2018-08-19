@@ -351,10 +351,10 @@ class ATP_Divi_Child {
 									$style_content = str_replace( $search, $replace, $style_content );
 									$file = $theme_dir . '/style.css';
 									if ( file_put_contents( $file, $style_content) ) {
-										$msg = __( 'The atp-dc-style.css file has been created.', 'rr-atp-divi-child' );
+										$msg = __( 'The style.css file has been created.', 'rr-atp-divi-child' );
 										$this->_set_msg( $msg, 'notice' );
 									} else {
-										$msg = __( 'The atp-dc-style.css file has NOT been created.', 'rr-atp-divi-child' );
+										$msg = __( 'The style.css file has NOT been created.', 'rr-atp-divi-child' );
 										$this->_set_msg( $msg );
 										$this->_error_end(); //on arrête là et on affiche la page de résultat
 										continue;
